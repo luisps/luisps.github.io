@@ -4,4 +4,17 @@ title: "Lecturing"
 permalink: /teaching/
 ---
 
-Courses and teaching activities (to be completed). You can maintain entries in `_data/teaching.yml` later.
+{% for c in site.data.teaching %}
+### {{ c.title }}
+
+{{ c.meta }}
+
+{{ c.description }}
+
+{% if c.links and c.links.size > 0 %}
+{% for l in c.links %}
+- [{{ l.label }}]({{ l.url }})
+{% endfor %}
+{% endif %}
+
+{% endfor %}

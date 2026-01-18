@@ -4,8 +4,25 @@ title: "Publications"
 permalink: /publications/
 ---
 
-For a complete list and citation metrics, please see my Google Scholar profile:
+This page lists a **selected** set of publications. For a full list and citation metrics, see [Google Scholar]({{ site.data.profile.scholarUrl }}).
 
-- https://scholar.google.com/citations?user=0OyFWZ0AAAAJ
+{% assign pubs = site.data.publications | sort: 'year' | reverse %}
+{% assign current_year = nil %}
 
-(You can optionally maintain a curated list in `_data/publications.yml` later.)
+{% for p in pubs %}
+  {% if p.year != current_year %}
+
+### {{ p.year }}
+  {% assign current_year = p.year %}
+  {% endif %}
+
+- **{{ p.title }}**  
+  {{ p.authors }}  
+  *{{ p.venue }}*
+  {% if p.doi %} · DOI: [{{ p.doi }}](https://doi.org/{{ p.doi }}){% endif %}
+  {% if p.handle %} · [Repository link]({{ p.handle }}){% endif %}
+  {% if p.tags %}  
+  <small>{{ p.tags | join: " · " }}</small>
+  {% endif %}
+
+{% endfor %}

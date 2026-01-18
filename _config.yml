@@ -1,10 +1,10 @@
 title: "Luís Paulo Santos"
-description: "Academic webpage · Publications · Projects · Lecturing · Students"
-url: ""
-baseurl: ""
+description: "Academic webpage · Publications · Projects · Teaching · Students"
+url: "" # set to https://<username>.github.io when publishing
+baseurl: "" # leave empty for user/organization site
 
 remote_theme: "mmistakes/minimal-mistakes"
-minimal_mistakes_skin: "air"
+minimal_mistakes_skin: "default"
 
 plugins:
   - jekyll-include-cache
@@ -13,13 +13,25 @@ plugins:
 
 locale: "en-US"
 
+# Site Author
 author:
   name: "Luís Paulo Santos"
-  avatar: "/assets/images/lps.jpg"
+  avatar: ""
   bio: "Associate Professor at the Department of Informatics (University of Minho) and senior researcher at INESC TEC."
   location: "Braga, Portugal"
   email: "psantos@di.uminho.pt"
+  links:
+    - label: "INESC TEC"
+      icon: "fas fa-link"
+      url: "https://www.inesctec.pt/pt/pessoas/luis-paulo-santos"
+    - label: "GEC/UMinho"
+      icon: "fas fa-link"
+      url: "http://gec.di.uminho.pt/psantos/"
+    - label: "Google Scholar"
+      icon: "fas fa-graduation-cap"
+      url: "https://scholar.google.com/citations?user=0OyFWZ0AAAAJ"
 
+# Navigation
 defaults:
   - scope:
       path: ""
@@ -27,5 +39,10 @@ defaults:
     values:
       layout: single
       author_profile: true
+
+collections: {}
+
+# Minimal Mistakes supports data-driven navigation
+
 
 navigation: main
