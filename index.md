@@ -5,28 +5,30 @@ title: "Luís Paulo Santos"
 author_profile: true
 ---
 
-**{{ site.data.profile.title }}** · {{ site.data.profile.org }}  
-{{ site.data.profile.affiliations }}
+**{{ site.data.profile.org }}** · {{ site.data.profile.affiliations }}
 
 ## About
 
 {{ site.data.profile.about }}
 
-{{ site.data.profile.aboutNote }}
+{{ site.data.profile.recentFocus }}
 
 ## Research interests
-
 {% for item in site.data.profile.researchInterests %}
 - {{ item }}
 {% endfor %}
 
-## Contact
+## Sections
+- [Publications](/publications/)
+- [Projects](/projects/)
+- [Lecturing](/teaching/)
+- [Students](/students/)
 
-- Email: {{ site.data.profile.email }}
+## Contact
+- Email: [{{ site.data.profile.email }}](mailto:{{ site.data.profile.email }})
 - Office: {{ site.data.profile.office }}
 
 ## External profiles
-
 {% for l in site.data.profile.links %}
 - [{{ l.label }}]({{ l.url }})
 {% endfor %}
