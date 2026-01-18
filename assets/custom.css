@@ -5,3 +5,8 @@
   object-fit: cover;   /* prevents distortion */
 }
 
+/* Main page background */
+body {
+  background-color: #f5f7fa;   /* /* subtle blue-gray */
+}
+
