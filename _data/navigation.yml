@@ -1,0 +1,11 @@
+main:
+  - title: "Home"
+    url: /
+  - title: "Publications"
+    url: /publications/
+  - title: "Projects"
+    url: /projects/
+  - title: "Lecturing"
+    url: /teaching/
+  - title: "Students"
+    url: /students/
