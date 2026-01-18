@@ -1,0 +1,7 @@
+/* Profile image size */
+.author__avatar img {
+  width: 160px;        /* change as needed */
+  height: 160px;       /* change as needed */
+  object-fit: cover;   /* prevents distortion */
+}
+
