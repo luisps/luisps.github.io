@@ -16,7 +16,7 @@ locale: "en-US"
 # Site Author
 author:
   name: "Luís Paulo Santos"
-  avatar: ""
+  avatar: "/assets/images/LPS_Picasso.jpg"
   bio: "Associate Professor at the Department of Informatics (University of Minho) and senior researcher at INESC TEC."
   location: "Braga, Portugal"
   email: "psantos@di.uminho.pt"
