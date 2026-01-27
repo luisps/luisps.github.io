@@ -1,7 +1,7 @@
 name: Luís Paulo Santos
 title: Associate Professor
 org: Department of Informatics · University of Minho
-affiliations: INESC TEC · HASLab / CSIG · INL (Cooperation Associate)
+affiliations: INESC TEC · HASLab · INL (Cooperation Associate)
 brandMeta: Associate Professor · University of Minho
 heroLead: Associate Professor at the Department of Informatics (University of Minho)
   and senior researcher (INESC TEC).
@@ -16,10 +16,10 @@ about: My academic and research career has been developed at the Department of I
 aboutNote: This website is intended as a concise entry point. For full details, please
   see the CV and Google Scholar profile.
 researchInterests:
-- Rendering and global illumination (performance-oriented algorithms)
-- Heterogeneous parallel computing (CPU/GPU) for simulation and rendering
 - Quantum algorithms (VQAs, quantum machine learning, quantum simulation)
 - Intersection of quantum computing and graphics
+- Rendering and global illumination (performance-oriented algorithms)
+- Heterogeneous parallel computing (CPU/GPU) for simulation and rendering
 recentFocus: Recent work includes quantum algorithms and quantum machine learning,
   alongside continued interests in rendering and performance-aware computation.
 email: psantos@di.uminho.pt
@@ -34,9 +34,9 @@ shortContactLine: 'Preferred contact: email. Profiles and bibliographic indexes 
 links:
 - label: INESC TEC
   url: https://www.inesctec.pt/pt/pessoas/luis-paulo-santos
-- label: GEC/UMinho
-  url: http://gec.di.uminho.pt/psantos/
 - label: DI institutional page
   url: https://www.di.uminho.pt/~jno/sitedi/nm_1063.html
+- label: INL
+  url: https://www.inl.int/community/luis-santos/
 - label: Google Scholar
   url: https://scholar.google.com/citations?user=0OyFWZ0AAAAJ
