@@ -3,6 +3,9 @@ description: "Academic webpage · Publications · Projects · Teaching · Studen
 url: "" # set to https://<username>.github.io when publishing
 baseurl: "" # leave empty for user/organization site
 
+custom_css:
+  - assets/css/custom.css
+
 remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default"
 
@@ -17,7 +20,7 @@ locale: "en-US"
 author:
   name: "Luís Paulo Santos"
   avatar: "/assets/images/LPS_Picasso.jpg"
-  bio: "Associate Professor at the Department of Informatics (University of Minho) and senior researcher at INESC TEC."
+  bio: "Associassste Professor at the Department of Informatics (University of Minho) and senior researcher at INESC TEC."
   location: "Braga, Portugal"
   email: "psantos@di.uminho.pt"
   links:
@@ -47,7 +50,6 @@ collections: {}
 
 navigation: main
 
-custom_css:
-  - assets/css/custom.css
+
   
   
