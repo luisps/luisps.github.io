@@ -20,7 +20,7 @@ locale: "en-US"
 author:
   name: "Luís Paulo Santos"
   avatar: "/assets/images/LPS_Picasso.jpg"
-  bio: "Associassste Professor at the Department of Informatics (University of Minho) and senior researcher at INESC TEC."
+  bio: "Associate Professor at the Department of Informatics (University of Minho) and senior researcher at INESC TEC."
   location: "Braga, Portugal"
   email: "psantos@di.uminho.pt"
   links:
@@ -30,7 +30,7 @@ author:
     - label: "DI/UMinho"
       icon: "fas fa-link"
       url: "https://www.di.uminho.pt/~jno/sitedi/nm_1063.html"
-    - label: "INL"
+    - label: "RRRR"
       icon: "fas fa-link"
       url: "https://www.inl.int/community/luis-santos/
     - label: "Google Scholar"
